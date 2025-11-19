@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 32px 0 48px;
+    gap: 32px;
+}
+
+.label {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    text-decoration-skip-ink: none;
+    white-space: nowrap;
+}
+
+.subLabel {
+    font-family: Helvetica, sans-serif;
+    margin-top: 8px;
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.linkCont {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.link {
+    text-decoration: underline;
+    color: #186dd6;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.active {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #000000;
+}
+
+.apiKeyBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 8px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.apiKeyButton {
+    padding: 8px 16px;
+    background-color: #186dd6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.apiKeyInput {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
