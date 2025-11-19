@@ -1,0 +1,23 @@
+.imageCont {
+    position: absolute;
+    left: 16px;
+    bottom: -4px;
+}
+
+.image {
+    width: 56px;
+    height: 48px;
+}
+
+@media (max-width: 1100px) {
+    .imageCont {
+        top: 129px;
+        left: auto;
+        right: 16px;
+    }
+    .image {
+        width: 35px;
+        height: 30px;
+        transform: scaleX(-1);
+    }
+}

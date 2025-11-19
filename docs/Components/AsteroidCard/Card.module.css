@@ -1,0 +1,53 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 920px;
+    height: auto;
+    aspect-ratio: 4.6 / 1;
+    margin: 16px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.cardRed {
+    background: linear-gradient(270deg, #f88665 0%, #FF1351E8 100%);
+}
+
+.regularCard {
+    background: linear-gradient(90deg, #7df3d7 0%, #7DE88C 100%);
+}
+
+.cardActions {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+@media (max-width: 1100px) {
+    .card {
+        width: 95%;
+        flex-direction: row;
+        display: flex;
+        max-width: 288px;
+        aspect-ratio: 0.74 / 1;
+        border-radius: 8px;
+    }
+
+    .cardRed {
+        background-size: 100% 41%;
+        background-repeat: no-repeat;
+    }
+
+    .regularCard {
+        background-size: 100% 41%;
+        background-repeat: no-repeat;
+    }
+}

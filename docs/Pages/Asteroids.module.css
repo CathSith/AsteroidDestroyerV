@@ -1,0 +1,67 @@
+.body {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.filtersWrapper {
+    font-family: helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto 15px;
+    padding: 0 16px;
+}
+
+.showDangerousOnly {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 1 220px;
+}
+
+.distanceMode {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+    flex: 2 1 300px;
+    flex-wrap: wrap;
+}
+
+.distanceChooser{
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0 4px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.checkBox{
+    height: 18px;
+    width: 18px;
+}
+
+.active{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.distanceChooser.active
+{
+  font-weight: bold;
+  background-color: #e0e0e0;
+  border-color: #999;
+}
