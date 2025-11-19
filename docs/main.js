@@ -1,4 +1,4 @@
-import './index';
+import './main';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {Destroy} from "./Pages/Destoy";
